@@ -1,6 +1,6 @@
 // creo la mia struttura dati
 // creo il mio arrey di oggetti
-const team = [
+const our_team = [
     {
         nome: 'Wayne Barnett',
         ruolo: 'Founder CEO',
@@ -32,3 +32,5 @@ const team = [
         foto: 'barbara-ramos-graphic-designer.jpg',
     },
 ]
+// mostro il mio arrey di oggetti in console
+console.log(our_team);
