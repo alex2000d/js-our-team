@@ -34,8 +34,16 @@ const our_team = [
 ]
 // mostro il mio arrey di oggetti in console
 console.log(our_team);
-// mostro i miei oggetti contenuti nell'arrey in console
-for( let i = 0; i < our_team.length; i++)
+// recupero il mio elemento dal dom 
+let our_teams = document.getElementById('ourteams');
+// creo un ciclo for per ciclare il mio arrey e stamparlo in console 
+for( let i = 0; i < our_team.length; i++){
+    // mostro i miei oggetti contenuti nell'arrey in console
     console.log(our_team[i].nome, our_team[i].ruolo, our_team[i].foto);
+    // mostro il mio arrey di oggetti sul dom
+    our_teams.innerHTML += `${our_team[i].nome, our_team[i].ruolo, our_team[i].foto} <br>`
+}
+    
+
 
 
