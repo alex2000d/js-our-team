@@ -18,3 +18,12 @@ Scott Estrada	- Developer - scott-estrada-developer.jpg
 Barbara Ramos - Graphic Designer - barbara-ramos-graphic-designer.jpg
 E ricordiamoci che console.log() è nostro amico!
 Buon lavoro!
+
+solution
+1- creo la mia struttura dati
+2- creo il mio arrey di oggetti
+3- mostro il mio arrey di oggetti in console
+4- recupero il mio elemento dal dom 
+5- creo un ciclo for per ciclare il mio arrey e stamparlo in console e sul dom
+6- mostro i miei oggetti contenuti nell'arrey in console
+7- mostro il mio arrey di oggetti sul dom
